@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Staumelder</string>
+    <string name="app_abbrechen">Abbrechen</string>
+    <string name="app_speichern">Speichern</string>
+    <string name="app_zurueck">Zurück</string>
+    <string name="app_aktualisieren">Neu laden</string>
+    <string name="app_senden">Abschicken</string>
+
+	<!-- anwendungsweite Menueoptionen -->
+    <string name="app_startseiteAnzeigen">Startseite</string>
+    <string name="app_routeFestlegen">Route wählen</string>
+    <string name="app_routeWechseln">Route wechseln</string>
+    <string name="app_stauberichtAnzeigen">Staubericht</string>
+    <string name="app_stauinfoAnzeigen">Staudetails</string>
+    <string name="app_staumelderBeenden">Beenden</string>
+    <string name="app_staumeldungBearbeiten">Bearbeiten</string>
+    <string name="app_staumeldungErfassen">Meldung erfassen</string>
+    <string name="app_einstellungenAnzeigen">Einstellungen</string>
+    <string name="app_einstellungBearbeiten">Bearbeiten</string>
+    <string name="app_strassenkarteAnzeigen">Straßenkarte anzeigen</string>
+    
+    <!-- Hilfetexte -->
+    <string name="hlp_routeFestlegen">Legen Sie eine neue Route fest. Eine eventuell aktive Route wird dadurch beendet.</string>
+    <string name="hlp_staumeldungErfassen">Melden Sie einen Stau oder aktualisieren Sie eine Staumeldung. Die Daten werden anschließend an den Server übertragen.</string>
+    
+    <!-- Startseite -->
+    <string name="startseiteanzeigen_titel">Staumelder</string>
+    <string name="startseiteanzeigen_intro">Sie haben folgende Optionen zur Verfügung:</string>
+
+	<!-- Route festlegen -->
+    <string name="routefestlegen_titel">Route festlegen</string>
+    <string name="routefestlegen_route">Route:</string>
+    <string name="routefestlegen_routenAktualisieren">Routen aktualisieren</string>
+    <string name="routefestlegen_routenStarten">Starten</string>
+
+	<!-- Staubericht -->
+    <string name="stauberichtanzeigen_titel">Staubericht</string>
+    <string name="stauberichtanzeigen_aktualisierung">Letzte Aktualisierung:</string>
+    <string name="stauberichtanzeigen_keineDaten">keine Störungen gemeldet</string>
+
+    <!-- Staumeldung erfassen/bearbeiten -->
+    <string name="staumeldungerfassen_titel">Staumeldung</string>
+    <string name="staumeldungerfassen_intro">Auf dieser Seite melden Sie einen Stau. Ihre Position wird automatisch übermittelt.</string>
+    <string name="staumeldungerfassen_stauAnfang">Stauanfang</string>
+    <string name="staumeldungerfassen_stauMitte">Im Stau</string>
+    <string name="staumeldungerfassen_stauEnde">Stauende</string>
+    <string name="staumeldungerfassen_stauUrsache">Stauursache:</string>
+    <string name="staumeldungerfassen_melden">Melden</string>
+    <string name="staumeldungerfassen_keineRoute">Sie haben noch keine Route ausgewählt.</string>
+    
+    <!-- Stauinfo anzeigen -->
+    <string name="stauinfoanzeigen_titel">Stauinfo</string>
+    <string name="stauinfoanzeigen_anzahlMeldungen">Anzahl Meldungen:</string>
+    <string name="stauinfoanzeigen_letzteAenderung">Letzte Meldung:</string>
+    <string name="stauinfoanzeigen_stauAnfang">Stauanfang:</string>
+    <string name="stauinfoanzeigen_stauEnde">Stauende:</string>
+    <string name="stauinfoanzeigen_stauEndeEntfernung">Entfernung [km]:</string>
+    <string name="stauinfoanzeigen_stauUrsache">Ursache:</string>
+    <string name="stauinfoanzeigen_keineDaten">keine Störungen gemeldet</string>
+
+    <!-- Einstellungen bearbeiten -->
+    <string name="einstellungenbearbeiten_titel">Einstellungen</string>
+    <string name="einstellungenbearbeiten_nickName">Nickname</string>
+    <string name="einstellungenbearbeiten_stauberichtIntervall">Intervall [min.] Staubericht</string>
+    <string name="einstellungenbearbeiten_verbindungsdatenTitel">Serververbindung</string>
+    <string name="einstellungenbearbeiten_verbindungsdatenLogin">Login</string>
+    <string name="einstellungenbearbeiten_verbindungsdatenPasswort">Passwort</string>
+    <string name="einstellungenbearbeiten_verbindungsdatenServer">Server URL</string>
+    
+    <!-- Strassenkarte anzeigen -->
+    <string name="text_strassenkarte_titel">Strassenkarte</string>
+    
+    <!-- GPS-Daten anzeigen -->
+    <string name="title_gps_gpsActivityTitle">GPS-Daten abrufen</string>
+    <string name="but_gps_showGpsData">Abrufen</string>
+    <string name="text_gps_gpsData">GPS-Daten:</string>
+
+    <!-- Staumelder beenden -->
+    <string name="staumelderbeenden_titel">Beenden</string>
+    <string name="staumelderbeenden_frage">Wollen Sie den Staumelder wirklich beenden?</string>
+    <string name="staumelderbeenden_ungesicherteDaten">Die Anwendung enthält noch ungesicherte Daten.</string>
+    
+</resources>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  package="de.androidbuch.staumelder"
+  android:versionCode="1" 
+  android:versionName="0.1.0">
+  
+  <uses-sdk android:minSdkVersion="3" />
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  
+  <!-- Permissions fuer GPS und LocationManager -->
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  <!-- wenn man einen LocationProvider zum Testen erstellen will: -->
+  <!-- uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/-->
+  
+  <application android:icon="@drawable/icon" 
+               android:label="@string/app_name"
+               android:debuggable="true">
+    
+    <uses-library android:name="com.google.android.maps" />
+        
+    <activity
+      android:name=".mobilegui.StartseiteAnzeigen"
+      android:label="@string/app_name">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category
+          android:name="android.intent.category.LAUNCHER"
+        />
+      </intent-filter>
+    </activity>
+    <activity android:name=".mobilegui.EinstellungenBearbeiten"></activity>
+    <activity android:name=".mobilegui.RouteFestlegen"></activity>
+    <activity android:name=".mobilegui.StauberichtAnzeigen"></activity>
+    
+    <activity android:name=".mobilegui.StaumeldungBearbeiten"></activity>
+    <activity android:name=".mobilegui.StaumeldungErfassen"></activity>
+    <activity android:name=".mobilegui.StauinfoAnzeigen"></activity>
+    <activity android:name=".mobilegui.StrassenkarteAnzeigen"></activity>
+    
+    <service android:name=".services.NetworkConnectorService" />
+   
+    <service android:name=".services.GpsLocationServiceLocal" />        
+    <service android:name=".services.GpsLocationServiceRemote" 
+      android:process=":remote">
+      <intent-filter>          
+          <action android:name="de.androidbuch.staumelder.services.IGpsRemoteService" />               
+      </intent-filter>
+    </service>       
+    
+    <receiver android:name=".mobilegui.StauberichtAnzeigen.ConnectionBroadcastReceiver" />
+    <receiver android:name=".services.NetworkConnectorService.ConnectionBroadcastReceiver" />
+    
+    <receiver android:name=".tasks.BootCompletedReceiver">        
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+        <!-- category android:name="android.intent.category.LAUNCHER" / -->
+      </intent-filter> 
+    </receiver>
+        
+  </application>
+</manifest>

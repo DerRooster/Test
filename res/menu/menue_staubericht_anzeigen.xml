@@ -1,0 +1,28 @@
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android"
+>
+  <item
+    android:id="@+id/opt_aktualisieren"
+    android:title="@string/app_aktualisieren"
+  />
+  <item
+    android:id="@+id/opt_staumeldungErfassen"
+    android:title="@string/app_staumeldungErfassen"
+  />
+  <item
+    android:id="@+id/opt_staumeldungBearbeiten"
+    android:title="@string/app_staumeldungBearbeiten"
+  />
+  <item
+    android:id="@+id/opt_routeFestlegen"
+    android:title="@string/app_routeWechseln"
+  />
+  <item
+    android:id="@+id/opt_einstellungenAnzeigen"
+    android:title="@string/app_einstellungenAnzeigen"
+  />
+  <item
+    android:id="@+id/opt_staumelderBeenden"
+    android:title="@string/app_staumelderBeenden"
+  />
+</menu>

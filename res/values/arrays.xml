@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stauUrsachen">
+        <item>Unfall</item>
+        <item>Baustelle</item>
+        <item>Gaffer</item>
+        <item>Überlastung</item>
+        <item>Sonstige</item>
+    </string-array>
+    <string-array name="intervalle_texte">
+        <item>1 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>30 min</item>
+        <item>aus</item>
+    </string-array>
+    <string-array name="intervalle_werte">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="routen"> 
+      <item>Wohnung -> Büro</item>
+      <item>Büro -> Wohnung</item>
+      <item>Büro -> Erwin Krawandel GmbH</item>
+      <item>Erwin Krawandel GmbH -> Wohnung</item>
+    </string-array>     
+</resources>

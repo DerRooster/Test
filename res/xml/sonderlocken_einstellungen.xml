@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <EditTextPreference
+      android:key="milz"
+      android:title="Milz"
+    />
+
+    <EditTextPreference
+      android:key="leber"
+      android:title="Leber"
+    />
+
+    <EditTextPreference
+      android:key="host"
+      android:title="@string/einstellungenbearbeiten_verbindungsdatenServer"
+    />
+</PreferenceScreen>

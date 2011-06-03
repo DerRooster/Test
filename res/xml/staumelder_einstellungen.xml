@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+>
+  <PreferenceCategory
+    android:title="@string/einstellungenbearbeiten_titel"
+  >
+    <EditTextPreference
+      android:key="nickname"
+      android:title="@string/einstellungenbearbeiten_nickName"
+      android:defaultValue=""
+    />
+    <ListPreference
+      android:key="stauberichtIntervall"
+      android:title="@string/einstellungenbearbeiten_stauberichtIntervall"
+      android:entries="@array/intervalle_texte"
+      android:entryValues="@array/intervalle_werte"
+      android:defaultValue="0"
+    />
+  </PreferenceCategory>
+  <PreferenceCategory
+    android:title="@string/einstellungenbearbeiten_verbindungsdatenTitel"
+  >
+
+    <EditTextPreference
+      android:key="username"
+      android:title="@string/einstellungenbearbeiten_verbindungsdatenLogin"
+    />
+
+    <EditTextPreference
+      android:key="password"
+      android:title="@string/einstellungenbearbeiten_verbindungsdatenPasswort"
+    />
+
+    <EditTextPreference
+      android:key="host"
+      android:title="@string/einstellungenbearbeiten_verbindungsdatenServer"
+    />
+
+  </PreferenceCategory>
+</PreferenceScreen>

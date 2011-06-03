@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:menuCategory="alternative" android:title="alternative"
+		android:titleCondensed="alt" android:id="@+id/item03" />
+	<item android:menuCategory="alternative" android:title="altcontainer"
+		android:titleCondensed="altcont" android:id="@+id/item04" />
+	<item android:id="@+id/item01"
+		android:title="nosystem category" android:titleCondensed="nosystem">
+	</item>
+	<item android:menuCategory="secondary" android:id="@+id/item02"
+		android:title="secondary category"
+		android:titleCondensed="secondary">
+	</item>
+</menu>

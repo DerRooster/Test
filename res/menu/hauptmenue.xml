@@ -1,0 +1,12 @@
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android"
+>
+  <item
+    android:id="@+id/opt_einstellungenAnzeigen"
+    android:title="@string/app_einstellungenAnzeigen"
+  />
+  <item
+    android:id="@+id/opt_staumelderBeenden"
+    android:title="@string/app_staumelderBeenden"
+  />
+</menu>

@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:id="@+id/autos" android:menuCategory="alternative" android:visible="true" android:checkableBehavior="single" android:enabled="true">
+		<item android:numericShortcut="1" android:id="@+id/optMercedes"
+			android:title="Mercedes Benz" android:alphabeticShortcut="m"
+			android:titleCondensed="Mercedes"
+			android:menuCategory="alternative" android:visible="true"
+			android:checked="false" android:enabled="true"
+			android:checkable="false" android:orderInCategory="2">
+		</item>
+		<item android:numericShortcut="2" android:id="@+id/optAudi"
+			android:checked="false" android:title="Audi" android:checkable="true"
+			android:alphabeticShortcut="a"
+			android:titleCondensed="Audi"
+			android:menuCategory="alternative" android:visible="true"
+			android:enabled="true" android:orderInCategory="1">
+		</item>
+		<item android:id="@+id/optSmart" android:title="Smart"
+			android:numericShortcut="3" android:menuCategory="alternative"
+			android:visible="true" android:checked="false" android:enabled="true"
+			android:checkable="false" android:alphabeticShortcut="s"
+			android:titleCondensed="Smart"
+			android:orderInCategory="3">
+		</item>
+		<item android:id="@+id/optAlfa" android:title="Alfa Romeo"
+			android:numericShortcut="4" android:menuCategory="alternative"
+			android:visible="true" android:checked="false" android:enabled="true"
+			android:checkable="false" android:alphabeticShortcut="r"
+			android:titleCondensed="Alfa"
+			android:orderInCategory="5">
+		</item>
+		<item android:id="@+id/optVW" android:title="Volkswagen"
+			android:numericShortcut="5" android:menuCategory="alternative"
+			android:visible="true" android:checked="false" android:enabled="true"
+			android:checkable="false" android:alphabeticShortcut="v"
+			android:titleCondensed="VW"
+			android:orderInCategory="4">
+		</item>
+		<item android:id="@+id/optVW2" android:title="Bentley Motors"
+			android:numericShortcut="5" android:menuCategory="alternative"
+			android:visible="true" android:checked="false" android:enabled="true"
+			android:checkable="false" android:alphabeticShortcut="v"
+			android:titleCondensed="Bentley"
+			android:orderInCategory="6">
+		</item>
+	</group>
+	<group android:id="@+id/optionen" android:visible="true" android:menuCategory="container" android:checkableBehavior="all" android:enabled="true">
+		<item android:id="@+id/opt_einstellungenAnzeigen"
+			android:title="@string/app_einstellungenAnzeigen"
+			android:alphabeticShortcut="o" />
+		<item android:id="@+id/opt_staumelderBeenden"
+			android:title="@string/app_staumelderBeenden"
+			android:alphabeticShortcut="x" />
+	</group>
+</menu>

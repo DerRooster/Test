@@ -1,0 +1,37 @@
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android"
+>
+  <item
+    android:id="@+id/opt_dummy1"
+    android:title="Audi"
+    android:icon="@drawable/help"
+  />
+  <item
+    android:id="@+id/opt_dummy2"
+    android:title="BMW"
+  />
+  <item
+    android:id="@+id/opt_dummy3"
+    android:title="Smart"
+  />
+  <item
+    android:id="@+id/opt_dummy4"
+    android:title="Mercedes Benz"
+    android:titleCondensed="Mercedes"
+  />
+  <item
+    android:id="@+id/opt_dummy5"
+    android:title="Alfa Romeo"
+    android:titleCondensed="Alfa"
+  />
+  <item
+    android:id="@+id/opt_dummy6"
+    android:title="Honda Motors"
+    android:titleCondensed="Honda"
+  />
+  <item
+    android:id="@+id/opt_dummy7"
+    android:title="Porsche"
+    android:icon="@drawable/shutdown"
+  />
+</menu>

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:id="@+id/noncheckable_item_1"
+             android:title="@string/app_einstellungenAnzeigen" />
+     <item android:title="Geschachteltes Menue">     
+         <menu>
+             <group android:id="@+id/noncheckable_group1"
+                     android:checkableBehavior="none">
+                <item android:id="@+id/opt_einstellungenAnzeigen"
+                      android:title="@string/app_einstellungenAnzeigen" />
+     	        <item android:id="@+id/opt_staumelderBeenden"
+                      android:title="@string/app_staumelderBeenden" />
+             </group>
+             <group android:id="@+id/noncheckable_group2"
+                     android:checkableBehavior="none">
+                <item android:id="@+id/opt_demo1"
+                      android:title="Demo 1 Gruppe 2" />
+     	        <item android:id="@+id/opt_demo2"
+                      android:title="Demo 2 Gruppe 2" />
+             </group>
+         </menu>
+     </item>
+</menu> 
